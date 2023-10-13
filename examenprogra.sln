@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "examenprogra", "examenprogra\examenprogra.vbproj", "{53B61A7E-9A12-42B8-8AED-B2E919E5873B}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "examenprogra", "examenprogra\examenprogra.vbproj", "{53B61A7E-9A12-42B8-8AED-B2E919E5873B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{F7C4B3AD-8E7B-4AF9-99B5-07AC2E1811A3}"
+	ProjectSection(SolutionItems) = preProject
+		a = a
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
