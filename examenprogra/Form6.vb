@@ -16,7 +16,7 @@
         End If
 
         resultado = dividendo / divisor
-        TextBox3.Text = resultad
+        TextBox3.Text = resultado
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
