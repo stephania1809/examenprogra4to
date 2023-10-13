@@ -22,9 +22,71 @@ Partial Class Form3
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form3"
+        Button1 = New Button()
+        Button2 = New Button()
+        TextBox1 = New TextBox()
+        TextBox2 = New TextBox()
+        TextBox3 = New TextBox()
+        SuspendLayout()
+        ' 
+        ' Button1
+        ' 
+        Button1.Location = New Point(344, 193)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(94, 29)
+        Button1.TabIndex = 0
+        Button1.Text = "Button1"
+        Button1.UseVisualStyleBackColor = True
+        ' 
+        ' Button2
+        ' 
+        Button2.Location = New Point(608, 354)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(94, 29)
+        Button2.TabIndex = 1
+        Button2.Text = "Button2"
+        Button2.UseVisualStyleBackColor = True
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.Location = New Point(331, 67)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(125, 27)
+        TextBox1.TabIndex = 2
+        ' 
+        ' TextBox2
+        ' 
+        TextBox2.Location = New Point(331, 134)
+        TextBox2.Name = "TextBox2"
+        TextBox2.Size = New Size(125, 27)
+        TextBox2.TabIndex = 3
+        ' 
+        ' TextBox3
+        ' 
+        TextBox3.Location = New Point(331, 253)
+        TextBox3.Name = "TextBox3"
+        TextBox3.Size = New Size(125, 27)
+        TextBox3.TabIndex = 4
+        ' 
+        ' Form3
+        ' 
+        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(800, 450)
+        Controls.Add(TextBox3)
+        Controls.Add(TextBox2)
+        Controls.Add(TextBox1)
+        Controls.Add(Button2)
+        Controls.Add(Button1)
+        Name = "Form3"
+        Text = "Form3"
+        ResumeLayout(False)
+        PerformLayout()
     End Sub
+
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox3 As TextBox
 End Class
