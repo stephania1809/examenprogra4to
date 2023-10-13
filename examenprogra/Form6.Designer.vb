@@ -35,7 +35,7 @@ Partial Class Form6
         Button1.Name = "Button1"
         Button1.Size = New Size(94, 29)
         Button1.TabIndex = 0
-        Button1.Text = "Button1"
+        Button1.Text = "divi"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' Button2
@@ -44,7 +44,7 @@ Partial Class Form6
         Button2.Name = "Button2"
         Button2.Size = New Size(94, 29)
         Button2.TabIndex = 1
-        Button2.Text = "Button2"
+        Button2.Text = "operaciones"
         Button2.UseVisualStyleBackColor = True
         ' 
         ' TextBox1

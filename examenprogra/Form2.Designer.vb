@@ -35,7 +35,7 @@ Partial Class Form2
         Button1.Name = "Button1"
         Button1.Size = New Size(94, 29)
         Button1.TabIndex = 0
-        Button1.Text = "Button1"
+        Button1.Text = "suma"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' Button2
@@ -44,7 +44,7 @@ Partial Class Form2
         Button2.Name = "Button2"
         Button2.Size = New Size(94, 29)
         Button2.TabIndex = 1
-        Button2.Text = "Button2"
+        Button2.Text = "resta"
         Button2.UseVisualStyleBackColor = True
         ' 
         ' Button3
@@ -53,7 +53,7 @@ Partial Class Form2
         Button3.Name = "Button3"
         Button3.Size = New Size(94, 29)
         Button3.TabIndex = 2
-        Button3.Text = "Button3"
+        Button3.Text = "multi"
         Button3.UseVisualStyleBackColor = True
         ' 
         ' Button4
@@ -62,7 +62,7 @@ Partial Class Form2
         Button4.Name = "Button4"
         Button4.Size = New Size(94, 29)
         Button4.TabIndex = 3
-        Button4.Text = "Button4"
+        Button4.Text = "divi"
         Button4.UseVisualStyleBackColor = True
         ' 
         ' Button5
@@ -71,7 +71,7 @@ Partial Class Form2
         Button5.Name = "Button5"
         Button5.Size = New Size(94, 29)
         Button5.TabIndex = 4
-        Button5.Text = "Button5"
+        Button5.Text = "inicio"
         Button5.UseVisualStyleBackColor = True
         ' 
         ' Form2
